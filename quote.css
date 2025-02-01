@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: url(./quote.jpg) no-repeat center/cover;
+  height: 43rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  height: 400px;
+  width: 500px;
+}
+
+.heading {
+  background-color: aliceblue;
+  width: 50%;
+  font-size: 15px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+section {
+  background-color: #add8e6;
+  width: 50%;
+  margin: 20px auto;
+  width: -10px;
+  height: 10rem;
+  border-radius: 15px;
+  padding: 2rem;
+  gap: 10px;
+}
+.person {
+  font-weight: 400;
+  color: brown;
+
+  font-size: smaller;
+  margin-top: 10px;
+}
+button {
+  background-color: rgb(123, 119, 119);
+  color: white;
+  padding: 4px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+.quote_button button:active {
+  background-color: aliceblue;
+}
